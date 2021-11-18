@@ -1,3 +1,12 @@
+/* Класс для оформления основной страницы */
+.page {
+  background-color: var(--primary-bg-color);
+  color: var(--main-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
 /* Класс для оформления основного контейнера */
 
 .container {
@@ -27,4 +36,18 @@
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
+}
+
+/* Класс для полного визуального скрытия сущностей  */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
