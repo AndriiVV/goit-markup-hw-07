@@ -110,27 +110,6 @@ ul {
   padding: 0 calc(var(--container-gutter) / 2);
 }
 
-/* Класс для оформления заголовка */
-.page-header {
-  background-color: var(--primary-bg-color);
-  border-bottom: 1px solid var(--header-line-color);
-  padding-top: var(--header-top-margin);
-  padding-bottom: var(--header-bottom-margin);
-}
-
-/* Класс для оформления дизайна основного flexbox в header */
-.header-set {
-  display: flex;
-  /* Для двух элементов (<nav> и <ul>) оставим space-between */
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-subset {
-  display: flex;
-  align-items: center;
-}
-
 /* Классы для оформления лого сайта */
 .logo {
   color: var(--accent-color);
@@ -150,6 +129,27 @@ ul {
 
 .logo-bottom {
   color: var(--logo-bottom-right-color);
+}
+
+/* Класс для оформления заголовка */
+.page-header {
+  background-color: var(--primary-bg-color);
+  border-bottom: 1px solid var(--header-line-color);
+  padding-top: var(--header-top-margin);
+  padding-bottom: var(--header-bottom-margin);
+}
+
+/* Класс для оформления дизайна основного flexbox в header */
+.header-set {
+  display: flex;
+  /* Для двух элементов (<nav> и <ul>) оставим space-between */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-subset {
+  display: flex;
+  align-items: center;
 }
 
 /* ===== ===== Стилизация навигации сайта ===== ===== */

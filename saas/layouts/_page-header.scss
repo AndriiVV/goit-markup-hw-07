@@ -21,27 +21,6 @@
   display: flex;
   align-items: center;
 }
-/* Классы для оформления лого сайта */
-.logo {
-  color: var(--accent-color);
-
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-}
-
-.logo.r-margin {
-  margin-right: var(--logo-right-margin);
-}
-
-.logo-right {
-  color: var(--logo-right-color);
-}
-
-.logo-bottom {
-  color: var(--logo-bottom-right-color);
-}
 
 /* ===== ===== Стилизация навигации сайта ===== ===== */
 
