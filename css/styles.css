@@ -1,5 +1,5 @@
 /* ===== ===== Блок css-переменных ===== ===== */
-:root {
+/* :root {
   --main-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -14,7 +14,7 @@
   --primary-button-bg-color: #2196f3;
   --button-text-color: #212121;
   --button-bg-color: #f5f4fa;
-  /* --hero-bg-color: #2f303a; */
+
   --hero-bg-color: #c4c4c4;
   --footer-bg-color: #2f303a;
   --header-line-color: #ececec;
@@ -33,7 +33,7 @@
   --container-width: 1200px;
   --container-gutter: 30px;
   --container-items: 1;
-}
+} */
 
 /* ===== ===== Глобальный сброс стилей некоторым тэгам ===== ===== */
 p,
