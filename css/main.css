@@ -68,6 +68,26 @@ ul {
   padding: 0 calc(var(--container-gutter) / 2);
 }
 
+/* Универсальный класс для определения padding-top и padding bottom  */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* outline: 1px dotted darkblue; */
+}
+
+.section.no-padding {
+  padding-bottom: 0;
+}
+
+/* Класс для оформления заголовков разделов */
+.section-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 /* Класс для оформления заголовка */
 .page-header {
   background-color: var(--primary-bg-color);
@@ -352,5 +372,107 @@ ul {
   height: 24px;
   margin-left: 10px;
   fill: currentcolor;
+}
+
+/* ===== ===== Класс для оформления Hero-секции ===== ===== */
+.hero {
+  background-color: var(--hero-bg-color);
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 200px 0;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-title {
+  color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+/* ===== ===== Классы для оформления раздела Особенности ===== ===== */
+.features {
+  display: flex;
+  --container-items: 4;
+}
+
+.features .item {
+  flex-basis: calc(var(--container-width) / var(--container-items) - var(--container-gutter));
+  margin-right: var(--container-gutter);
+}
+
+.features .item:last-child {
+  margin-right: 0;
+}
+
+.features-logo {
+  width: 270px;
+  height: 120px;
+  background-color: var(--team-section-bg-color);
+  margin-bottom: 30px;
+  padding: 25px 100px;
+}
+
+.features-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.features .title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features .text {
+  font-size: 14px;
+  line-height: 1.71;
+  margin-top: 10px;
+}
+
+/* ===== ===== Классы для оформления секции "Чем мы занимаемся" ===== ===== */
+.about {
+  display: flex;
+  --container-items: 3;
+}
+
+.about .item {
+  flex-basis: calc(var(--container-width) / var(--container-items) - var(--container-gutter));
+  margin-right: var(--container-gutter);
+  position: relative;
+}
+
+.about .item:last-child {
+  margin-right: 0;
+}
+
+.about .item-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  color: var(--primary-bg-color);
+  /* color: grey; */
+  background-color: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=main.css.map */

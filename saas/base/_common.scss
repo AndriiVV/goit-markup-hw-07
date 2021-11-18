@@ -6,3 +6,25 @@
   width: var(--container-width);
   padding: 0 calc(var(--container-gutter) / 2);
 }
+
+/* Универсальный класс для определения padding-top и padding bottom  */
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* outline: 1px dotted darkblue; */
+}
+
+.section.no-padding {
+  padding-bottom: 0;
+}
+
+/* Класс для оформления заголовков разделов */
+.section-title {
+  color: var(--title-text-color);
+
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
