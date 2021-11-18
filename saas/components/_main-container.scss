@@ -3,8 +3,7 @@
   background-color: var(--primary-bg-color);
   color: var(--main-text-color);
 
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
+  @include main-font();
 }
 
 /* Класс для оформления основного контейнера */
