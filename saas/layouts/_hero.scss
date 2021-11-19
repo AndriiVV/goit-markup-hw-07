@@ -35,18 +35,13 @@
     border-style: none;
 
     font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
+    @include font-parameters(500, 16px, 26px, 0.03em);
 
     &_primary {
       color: var(--primary-button-text-color);
       background-color: var(--primary-button-bg-color);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-      font-weight: 700;
-      line-height: calc(30 / 16);
-      letter-spacing: 0.06em;
+      @include font-parameters(700, 16px, 30px, 0.06em);
 
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
