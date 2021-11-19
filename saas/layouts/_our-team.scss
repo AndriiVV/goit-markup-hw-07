@@ -1,11 +1,5 @@
 /* ===== ===== Классы для оформления секции "Наша команда" ===== ===== */
 
-.section.special {
-  background-color: var(--team-section-bg-color);
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .employee {
   display: flex;
   --container-items: 4;

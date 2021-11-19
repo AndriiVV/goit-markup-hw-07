@@ -3,21 +3,24 @@
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  /* outline: 1px dotted darkblue; */
-}
 
-.section.no-padding {
-  padding-bottom: 0;
-}
+  &__title {
+    color: var(--title-text-color);
 
-/* Класс для оформления заголовков разделов */
-.section-title {
-  color: var(--title-text-color);
+    @include font-parameters(700, 36px, 42px, 0.03em);
+    text-align: center;
+    margin-bottom: 50px;
+  }
 
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  margin-bottom: 50px;
+  &__no-padding {
+    padding-bottom: 0;
+  }
+
+  &__special {
+    background-color: var(--team-section-bg-color);
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* Класс для полного визуального скрытия сущностей  */
